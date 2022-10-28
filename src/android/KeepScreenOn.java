@@ -12,12 +12,12 @@ public class KeepScreenOn extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
 		System.out.println("Im in the plugin");
-		if (action.equalsIgnoreCase("KeepScreenOn")) {
-			System.out.println("Start KeepScreenOn");
+		if (action.equalsIgnoreCase("SetKeepScreenOn")) {
+			System.out.println("SetKeepScreenOn");
 			cordova.getActivity().runOnUiThread(new Runnable() {
 	            public void run() {
 	            	cordova.getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-    				System.out.println("Screen will be kept on. KeepScreenOn");
+    				System.out.println("SetKeepScreenOn: Screen will be kept on.");
 	            }
 	        });
             return true;
@@ -27,7 +27,7 @@ public class KeepScreenOn extends CordovaPlugin {
 			cordova.getActivity().runOnUiThread(new Runnable() {
 	            public void run() {
 	            	cordova.getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-	            	System.out.println("Screen will not be kept on. Cancel KeepScreenOn");
+	            	System.out.println("CancelKeepScreenOn: Screen will not be kept on.");
 	            }
 	        });
             return true;
