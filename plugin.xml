@@ -4,7 +4,7 @@
     <description>Cordova plugin to set and clear FLAG_KEEP_SCREEN_ON flag.</description>
     <license>Apache 2.0</license>
     <keywords>keepScreenOn</keywords>
-    <js-module src="www/keepScreenOn.js" name="keepScreenOn">
+    <js-module src="www/keepScreenOn.js" name="KeepScreenOn">
         <clobbers target="cordova.KeepScreenOn" />
     </js-module>
     <platform name="android">
