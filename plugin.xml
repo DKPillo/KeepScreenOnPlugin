@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ch.pillo.plugins.KeepScreenOn" version="1.0.0">
-    <name>cordova-plugin-keepscreenon</name>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-keepscreenon" version="1.0.0">
+    <name>KeepScreenOn</name>
     <description>Cordova plugin to set and clear FLAG_KEEP_SCREEN_ON flag.</description>
     <license>Apache 2.0</license>
     <keywords>keepScreenOn</keywords>
-    <js-module src="www/js/keepScreenOn.js" name="KeepScreenOn">
-        <clobbers target="window.keepScreenOn" />
+    <js-module src="www/keepScreenOn.js" name="keepScreenOn">
+        <clobbers target="cordova.KeepScreenOn" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
