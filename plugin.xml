@@ -5,7 +5,7 @@
     <license>Apache 2.0</license>
     <keywords>keepScreenOn</keywords>
     <js-module src="www/keepScreenOn.js" name="KeepScreenOn">
-        <clobbers target="cordova.KeepScreenOn" />
+        <clobbers target="cordova.plugins.KeepScreenOn" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">

@@ -14,9 +14,9 @@ cordova plugin add https://github.com/DKPillo/KeepScreenOnPlugin.git
 
 ```javascript
 // Set flag on current window
-cordova.KeepScreenOn.setKeepScreenOn();
+cordova.plugins.KeepScreenOn.setKeepScreenOn();
 
 // Clear flag on current window
-cordova.KeepScreenOn.cancelKeepScreenOn();
+cordova.plugins.KeepScreenOn.cancelKeepScreenOn();
 ```
 
