@@ -13,10 +13,13 @@ cordova plugin add https://github.com/DKPillo/KeepScreenOnPlugin.git
 ## Usage
 
 ```javascript
-// Set flag on current window
-cordova.plugins.KeepScreenOn.setKeepScreenOn();
+// Set flag: FLAG_SHOW_WHEN_LOCKED
+cordova.plugins.KeepScreenOn.setShowWhenLocked();
+// Clear flag: FLAG_SHOW_WHEN_LOCKED
+cordova.plugins.KeepScreenOn.cancelShowWhenLocked();
 
-// Clear flag on current window
+// Set flag: FLAG_KEEP_SCREEN_ON
+cordova.plugins.KeepScreenOn.setKeepScreenOn();
+// Clear flag: FLAG_KEEP_SCREEN_ON
 cordova.plugins.KeepScreenOn.cancelKeepScreenOn();
 ```
-
