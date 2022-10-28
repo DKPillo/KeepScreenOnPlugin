@@ -1,0 +1,21 @@
+{
+    "name": "cordova-plugin-keepscreenon",
+    "version": "1.0.0",
+    "description": "Cordova plugin to set and clear FLAG_KEEP_SCREEN_ON flag.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DKPillo/KeepScreenOnPlugin.git"
+    },
+    "author": "DKPillo",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/DKPillo/KeepScreenOnPlugin/issues"
+    },
+    "homepage": "https://github.com/DKPillo/KeepScreenOnPlugin#readme",
+    "keywords": [
+        "keepScreenOn"
+    ]
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ch.pillo.plugins.KeepScreenOn" version="1.0.0">
-    <name>KeepScreenOn</name>
+    <name>cordova-plugin-keepscreenon</name>
     <description>Cordova plugin to set and clear FLAG_KEEP_SCREEN_ON flag.</description>
     <license>Apache 2.0</license>
     <keywords>keepScreenOn</keywords>
